@@ -15,6 +15,9 @@
 		FCE8C2421F9F78D8001FB8BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE8C2401F9F78D8001FB8BB /* LaunchScreen.storyboard */; };
 		FCE8C24D1F9F78D8001FB8BB /* ContactBookProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8C24C1F9F78D8001FB8BB /* ContactBookProjectTests.swift */; };
 		FCE8C2581F9F78D8001FB8BB /* ContactBookProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8C2571F9F78D8001FB8BB /* ContactBookProjectUITests.swift */; };
+		FCE8C2661F9F8042001FB8BB /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8C2651F9F8042001FB8BB /* ContactsViewController.swift */; };
+		FCE8C2681F9F8102001FB8BB /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8C2671F9F8102001FB8BB /* DetailsViewController.swift */; };
+		FCE8C26C1F9F89E8001FB8BB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8C26B1F9F89E8001FB8BB /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		FCE8C2531F9F78D8001FB8BB /* ContactBookProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactBookProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE8C2571F9F78D8001FB8BB /* ContactBookProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactBookProjectUITests.swift; sourceTree = "<group>"; };
 		FCE8C2591F9F78D8001FB8BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE8C2651F9F8042001FB8BB /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		FCE8C2671F9F8102001FB8BB /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		FCE8C26B1F9F89E8001FB8BB /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +106,14 @@
 			isa = PBXGroup;
 			children = (
 				FCE8C2341F9F78D8001FB8BB /* AppDelegate.swift */,
+				FCE8C2651F9F8042001FB8BB /* ContactsViewController.swift */,
 				FCE8C2361F9F78D8001FB8BB /* ViewController.swift */,
 				FCE8C2381F9F78D8001FB8BB /* Main.storyboard */,
 				FCE8C23E1F9F78D8001FB8BB /* Assets.xcassets */,
 				FCE8C2401F9F78D8001FB8BB /* LaunchScreen.storyboard */,
 				FCE8C2431F9F78D8001FB8BB /* Info.plist */,
+				FCE8C26B1F9F89E8001FB8BB /* SettingsViewController.swift */,
+				FCE8C2671F9F8102001FB8BB /* DetailsViewController.swift */,
 				FCE8C23B1F9F78D8001FB8BB /* ContactBookProject.xcdatamodeld */,
 			);
 			path = ContactBookProject;
@@ -263,8 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCE8C23D1F9F78D8001FB8BB /* ContactBookProject.xcdatamodeld in Sources */,
+				FCE8C2661F9F8042001FB8BB /* ContactsViewController.swift in Sources */,
 				FCE8C2371F9F78D8001FB8BB /* ViewController.swift in Sources */,
 				FCE8C2351F9F78D8001FB8BB /* AppDelegate.swift in Sources */,
+				FCE8C2681F9F8102001FB8BB /* DetailsViewController.swift in Sources */,
+				FCE8C26C1F9F89E8001FB8BB /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
